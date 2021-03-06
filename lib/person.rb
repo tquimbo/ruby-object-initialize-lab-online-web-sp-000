@@ -16,5 +16,7 @@ class Dog
     @breed = breed
   end
 
+Mutt = breed.new
+Mutt.name = "Mutt"
 
 end
