@@ -8,16 +8,13 @@ end
 
 class Dog
 
-  # attr_reader :breed
-  # attr_writer :breed
+attr_accessor :name, :breed
 
   def initialize(name,breed)
     @name = name
     @breed = breed
   end
 
-# Mutt = breed.new
-# Mutt.name = "Mutt"
 
 
 end
