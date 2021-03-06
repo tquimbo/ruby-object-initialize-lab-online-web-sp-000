@@ -18,5 +18,6 @@ class Dog
 
 Mutt = breed.new
 Mutt.name = "Mutt"
+Mutt.name
 
 end
