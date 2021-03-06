@@ -1,6 +1,6 @@
 class Person
 
-attr_accessor :name
+attr_accessor :name, :breed
 
   def initialize(name)
   @name = name
@@ -12,9 +12,9 @@ class Dog
 
 attr_accessor :name, :breed
 
-  def initialize(attributes_hash={})
-    @name = attributes_hash[:name]
-    self.breed = attributes_hash[:breed]
+  def initialize(name,breed)
+    @name = name
+    @breed = breed
   end
 
 
