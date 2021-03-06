@@ -8,7 +8,7 @@ end
 
 class Dog
 
-binding.binding.pry
+binding.pry
   def initialize(name)
     @name
   end
