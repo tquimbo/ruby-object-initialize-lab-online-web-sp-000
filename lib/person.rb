@@ -8,12 +8,13 @@ end
 
 class Dog
 
+  attr_reader :breed
+  attr_writer :breed
+  
   def initialize(name,breed)
     @name = name
     @breed = breed
-    breed = "Mutt"
   end
-
 
 
 end
