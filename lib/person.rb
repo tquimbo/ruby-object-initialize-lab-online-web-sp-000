@@ -14,7 +14,7 @@ attr_accessor :name, :breed
 
   def initialize(attributes_hash={})
     @name = attributes_hash[:name]
-    self.breed = b
+    self.breed = attributes_hash[:breed]
   end
 
 
