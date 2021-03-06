@@ -13,8 +13,8 @@ class Dog
 attr_accessor :name, :breed
 
   def initialize(attributes_hash={})
-    @name = name
-    @breed = breed
+    @name = attributes_hash[:name]
+    self.breed = b
   end
 
 
