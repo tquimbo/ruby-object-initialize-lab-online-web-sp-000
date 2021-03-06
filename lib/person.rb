@@ -17,6 +17,4 @@ attr_accessor :name, :breed
     @breed = breed
   end
 
-
-
 end
